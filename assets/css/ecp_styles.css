@@ -1,0 +1,32 @@
+/*
+
+CSS Stylesheet for ECP Document formatting.
+
+ecp_styles.css
+
+*/
+
+
+.meter-wrapper {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.meter {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    background: linear-gradient(to right, green, yellow, red);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.meter-bar {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+}
